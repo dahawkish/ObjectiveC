@@ -1,0 +1,69 @@
+//
+//  main.m
+//  revision4
+//
+//  Created by Golden Data on 2/7/15.
+//  Copyright (c) 2015 Golden Data. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface Person: NSObject
+{
+    int age;
+    int weight;
+}
+
+- (void) print;
+- (void) setWeight:(int)w;
+- (void) setAge:(int)a;
+    
+@end
+
+
+@implementation Person
+
+- (void) setAge:(int)a
+{
+    age=a;
+}
+
+- (void) setWeight:(int)w
+
+{
+    weight=w;
+}
+
+- (void) print
+{
+    NSLog(@"%i %i",age,weight);
+}
+
+@end
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+        
+        NSLog(@"Hello, World!");
+        Person *Peter=[[Person alloc] init];
+        [Peter setAge: 20];
+        [Peter setWeight: 120];
+        
+        [Peter print];
+        /*
+         @interface
+          (creating functions)
+         
+         @implementation
+          (use the functions)
+         
+         @main (creating objects)
+         
+         */
+        
+        
+    }
+    return 0;
+}
+
