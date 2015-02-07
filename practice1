@@ -1,0 +1,181 @@
+//
+//  main.m
+//  Revision001
+//
+//  Created by Golden Data on 2/7/15.
+//  Copyright (c) 2015 Golden Data. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+int a=12;
+int e=4;
+int f;
+double b=1.42;
+float c=2.000;
+bool d=false;
+//printing
+//BOMAS
+//casting
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+//        NSLog(@"Hello, World!");
+//        NSLog(@"2nd try!");
+//        NSLog(@"%i", a);
+//        NSLog(@"%f", b);
+//        NSLog(@"%e",c);
+//        NSLog(@"%d",d);
+//        int g;
+//        float r=12.5;
+//        g=a+e;
+//        NSLog(@"%i",g);
+//        
+//        // int h;
+//        // scanf("enter an integer %i", &h);
+//        // NSLog(@"value  is %i", h);
+//        
+//        float i;
+//        i=10;
+//        NSLog(@"%f",i); //print float
+//        
+//        i=c/g;
+//        NSLog(@"%f",i); //integer devided by integer
+//        
+//        i=r/8;
+//        NSLog(@"%f",i); //float divided by a integer, and print float
+//        
+//        float v;
+//        int z;
+//        z=16;
+//        v=(float)z/8;
+//        NSLog(@"%f", v); //you can't use printing to change the type of variables
+//        
+//        int k;
+//        int w;
+//        int b;
+//        for (k=4; k<=12; k=k+4) //
+//        {
+//            
+//            for (b; b<=w; b=b+1)
+//                 {
+//                     scanf("enter an integer value %i",&w);
+//                     NSLog(@"%i",w);
+//                 }
+//                 
+//            NSLog(@"%i",k);//i is an expression variable
+//        }
+/*
+        for (int a = 0; a < 3; a++) {
+            int i;
+            scanf("%i", &i);
+            for(int b = 0; b < i; b++) {
+                NSLog(@"%i", i);
+            }
+        }
+*/
+//        int x;
+//        scanf("%i", &x);
+//        while(x<6)
+//        {
+//            NSLog(@"%i",x);
+//            x++;
+//        }
+//        
+//        int one=1;
+//        int two;
+//        NSLog(@"enter variable %i", two);
+//        scanf("%i", &two);
+//        
+//        while (one<=10)
+//        {
+//            NSLog(@"%i %i %i", one, two, one*two);
+//            one++;
+//        }
+//        
+//        int i;
+//        i=0;
+//        do{
+//            NSLog(@"%i", i*i);
+//            i++;
+//        } while (i<12);
+//        
+//        int i;
+//        bool output;
+//        NSLog(@"enter an integer");
+//        scanf("%i", &i);
+//        
+//        if (i%2==0)
+//        {
+//            output=true;
+//            NSLog(@"%d", output);
+//        }
+//        
+//        else
+//        {
+//            output=false;
+//            NSLog(@"%d", output);
+//        }
+        
+//        int i;
+//        int output;
+//        NSLog(@"enter an integer");
+//        scanf("%i", &i);
+//        if (i<3)
+//        {
+//            output=3;
+//            NSLog(@"%i", output);
+//        }
+//        
+//        else if (i>3 && i<10)
+//        {
+//            output=10;
+//            NSLog(@"%i", output);
+//        }
+//        
+//        else
+//        {
+//            output=20;
+//            NSLog(@"%i", output);
+//        }
+//    }
+//    int i;
+//    //int output;
+//    NSLog(@"enter an integer");
+//    scanf("%i", &i);
+//    
+//    switch (i)
+//    {
+//        case 1:
+//            NSLog(@"print case 1 %i", i);
+//            break;
+//        case 2:
+//            NSLog(@"print case 2 %i", i);
+//            break;
+//        default:
+//            NSLog(@"print default %i", i);
+//        
+//    }
+//        
+//        NSString * s=@"I love objective c";
+//            NSLog(@"%@",s);
+//            NSLog(@"%i",[s length]);
+//        return 0;
+        NSString *text;
+        NSString *upper;
+        NSString *sub;
+        NSString *range;
+        NSString * s=@"I love objective c";
+        text=[NSString stringWithString: s ];
+        upper=[s uppercaseString];
+        sub=[s substringFromIndex:3];
+        range=[s substringWithRange: NSMakeRange(0,4)];
+        
+        NSLog(@"%@", text);
+        NSLog(@"%@", upper);
+        NSLog(@"%@", sub);
+        NSLog(@"%@", range);
+        return 0;
+    
+}
+}
