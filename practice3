@@ -1,0 +1,37 @@
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+//        // insert code here...
+//        //NSLog(@"Hello, World!");
+//        NSArray *arrayname=[NSArray arrayWithObjects:@"hi",@"hi",nil];
+//        NSLog(@"%@", arrayname);
+//        
+//        //[arrayname objectAtIndex: 1];
+//        NSLog(@"%@", arrayname);
+//        
+//        //ArrayMutable
+//        //Dictionary, just parse the value
+//        
+//        NSMutableDictionary *testing=[NSMutableDictionary dictionary];
+//        
+//        [testing setObject:@"hi" forKey:@"hi"];
+//
+//        NSLog(@"%@", [testing objectForKey: @"hi"]);
+//
+        NSNumber *firstInt, *firstFloat;
+        firstInt=[NSNumber numberWithInt:2];
+        firstFloat=[NSNumber numberWithFloat:1.2];
+        NSLog(@"%@", firstInt);
+        NSLog(@"%@",firstFloat);
+        int i;
+        i=[firstInt integerValue];
+        NSLog(@"%i", i);
+        
+        float k;
+        k=[firstFloat floatValue];
+        NSLog(@"%f",k);
+        
+    }
+    return 0;
+}
