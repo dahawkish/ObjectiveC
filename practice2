@@ -1,0 +1,21 @@
+
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+        NSLog(@"Hello, World!");
+  
+        NSMutableString *mutable=[[NSMutableString alloc] initWithString: @"hi"];
+        
+        NSLog(@"%@", mutable);
+       // [mutable insertString: @"hi" atIndex:2];
+      
+       //[mutable appendString: @"hi"];
+        //[mutable setString: @"hi"];
+        [mutable replaceCharactersInRange:NSMakeRange(0,1) withString:@"dd"];
+        NSLog(@"%@", mutable);
+        
+    }
+    return 0;
+}
