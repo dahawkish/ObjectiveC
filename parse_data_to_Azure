@@ -1,9 +1,9 @@
 //In this practice, I will create some examples about parsing data to Azure.
 
-//About running iOS library for the application server
-//http://azure.microsoft.com/en-us/documentation/articles/mobile-services-ios-how-to-use-client-library/
-
 //About using iOS on the cloud with application servers
 //http://azure.microsoft.com/en-us/documentation/articles/mobile-services-ios-get-started/
 
-//running an application server on azure
+//About actually using the SDK from Azure...saving your time
+//https://www.youtube.com/watch?v=T6qDJ2OiNtY
+//a git I starred ... #hideAndSeek
+
